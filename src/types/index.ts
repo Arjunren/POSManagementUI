@@ -1,0 +1,1 @@
+export type Category="All"|"Coffee"|"Tea"|"Bakery"|"Lunch";export type Product={id:number,name:string,category:Exclude<Category,"All">,price:number,stock:number,color:string,initials:string};export type CartLine={product:Product;quantity:number};
